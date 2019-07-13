@@ -72,7 +72,7 @@ else if (b=== "female" && actualDay === 2) {
 else if (b=== "female" && actualDay === 3) {
   alert("You were born on a WEDNESDAY and your name would be AKU");
 }
-else if (b=== "female" && actualDay === 4) {
+else if (b=== "female" && actuaDay === 4) {
   alert("You were born on a THURSDAY and your name would be YAA");
 }
 else if (b=== "female" && actualDay === 5) {
