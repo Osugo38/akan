@@ -4,6 +4,7 @@
     <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
     <link rel="stylesheet" href="css/styles.css" type="text/css">
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Akan names</title>
     <style media="screen">
      .jumbotron{
@@ -52,15 +53,16 @@
       <div class="col-md-12">
 
         <form class="form" action="index.html" id="myForm">
-
+          ENTER Century of birth
+          <input type="number" name="century"  id="century" placeholder="eg .19" value="century"><br><br>
           ENTER Year of birth:
-          <input type="number" name="year"  id="year" placeholder="eg .1999" value="year"><br><br>
+          <input type="number" name="year"  id="year" placeholder="eg .97" value="year"><br><br>
           ENTER Birth month:
           <input type="number" name="month" id="month" placeholder="eg .01" value="month"><br><br>
           ENTER Date of birth:
           <input type="number" name="date" id="date" placeholder="eg .25" value="date"><br><br>
           SELECT Gender:
-          <select >
+          <select id = "list" onchange  = "gender();" >
             <option value="male">male</option>
             <option value="female">female</option>
 
