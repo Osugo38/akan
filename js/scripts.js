@@ -13,5 +13,16 @@ function year (){
   a.push(yy);
 }
 function month(){
-  var mm =parse
+  var mm = parseInt(document.getElementById("month").value);
+  a.push(mm)
+}
+function date(){
+  var dd = parseInt(document.getElementById("date").value);
+  a.push(dd)
+}
+function gender(){
+
+}
+function formula(cc,yy,mm,dd){
+  return ((CC/4)-2*CC-1)+((5*YY/4))+((26*(MM+1)/10))+DD)%7;
 }
