@@ -35,13 +35,16 @@ DD - is the Day of the month
 mod - is the modulus function ( % )
 
 ##Technology used
-
-
-
+Used different languages as stated below
+.html
+.css
+.javascript
+.bootstrap
 
 
 ##contact information
 you can email me at josugo38@gmail.com
+tel :0726526801
 
 ##license and copyright
 
