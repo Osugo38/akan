@@ -53,8 +53,7 @@
       <div class="col-md-12">
 
         <form class="form" action="index.html" id="myForm">
-          ENTER Century of birth
-          <input type="number" name="century"  id="century" placeholder="eg .19" value="century"><br><br>
+
           ENTER Year of birth:
           <input type="number" name="year"  id="year" placeholder="eg .97" value="year"><br><br>
           ENTER Birth month:
@@ -62,12 +61,13 @@
           ENTER Date of birth:
           <input type="number" name="date" id="date" placeholder="eg .25" value="date"><br><br>
           SELECT Gender:
-          <select id = "list" onchange  = "gender();" >
-            <option value="male">male</option>
-            <option value="female">female</option>
+          <select class="custom-select" id = "list" name= "gender();" >
+            <option value="0">Gender</option>
+            <option value="1">Male</option>
+            <option value="2">Female</option>
 
           </select><br><br>
-          <button type="button" name="submit" oneclick="validateYear();">SUBMIT</button>
+          <button type="button" name="submit" onclick="determine();">SUBMIT</button>
         </form>
 
       </div>
