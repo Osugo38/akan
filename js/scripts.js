@@ -13,7 +13,7 @@ function determine(){
  if (result===0 && gender===1){
        alert("You were born on a SUNDAY  and your name would be KWASI");
        return true;
-   }
+   }/*
    else if (result===1 && gender===1) {
      alert("You were born on a MONDAY and your name would be KWADWO");
      return true;
@@ -87,7 +87,7 @@ function determine(){
 
 
 
- 
+
  /*
  if (result = 2 && gender===1){
     alert("You were born on Tuesday and your name would be Yaw");
