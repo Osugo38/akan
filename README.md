@@ -1,15 +1,27 @@
 #Akan names
+
 This is a simple program that can tell you what day of the week you were born just by filling in a number of details  i.e year of birth,month of birth and the date of birth then this will automatically calculate what day of the week you were born and also assign you an Akan name because the Akan community actually names children after days of the week they were born
 
-Link below is ascreenshot of how it looks
+Link below is ascreenshot of how it looks;
 ![](images/overview.jpg)
+
 
 ##Author
 
 Joseck Osugo
 
 
-##license
+##contributors
+
+Joseck Osugo
+
+##installation
+
+First you need to access the github  then add th following link anf fork it (https://github.com/Osugo38/akan.git)
+
+
+##license and copyright
+
 This project is licensed under the MIT License and its attached below
 --------------------------------
 MIT License
