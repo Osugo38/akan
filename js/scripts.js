@@ -1,7 +1,21 @@
 function giveYear() {
   var trueYear = document.getElementById("year").value;
   if (trueYear == "") {
-    alert("Year must be filled out");
+    alert("Please input Year of birth");
+    return false;
+  }
+}
+function giveMonth() {
+  var month = document.getElementById("month").value;
+  if (month == "") {
+    alert("Please input Month of birth");
+    return false;
+  }
+}
+function giveDay() {
+  var day = document.getElementById("date").value;
+  if (day == "") {
+    alert("Please Enter date of birth");
     return false;
   }
 }
@@ -23,61 +37,61 @@ function selectGender() {
     var result = parseInt(formula.toFixed());
     if (gender === 1) {
       if (result === 0) {
-        document.getElementById("output").value = "You were born on a Sunday and your name would be Kwasi ";
+        document.getElementById("output").value = "Born on Sunday and your  akan name is Kwasi ";
         return true;
       }
       else if (result === 1) {
-        document.getElementById("output").value ="You were born on a Monday and your name would be Kwadwo";
+        document.getElementById("output").value ="Born on Sunday and your  akan name is Kwadwo";
         return true;
       }
       else if (result === 2) {
-        document.getElementById("output").value ="You were born on a Tuesday and your name would be Kwabena";
+        document.getElementById("output").value ="Born on Sunday and your  akan name is Kwabena";
         return true;
       }
       else if (result === 3) {
-        document.getElementById("output").value ="You were born on a Wednesday and your name would be Kwaku";
+        document.getElementById("output").value ="Born on Sunday and your  akan name is Kwaku";
         return true;
       }
       else if (result === 4) {
-        document.getElementById("output").value ="You were born on a Thursday and your name would be Yaw";
+        document.getElementById("output").value ="Born on Sunday and your  akan name is Yaw";
         return true;
       }
       else if (result === 5) {
-        document.getElementById("output").value ="You were born on a Friday and your name would be Kofi";
+        document.getElementById("output").value ="Born on Sunday and your  akan name is Kofi";
         return true;
       }
       else if (result === 6) {
-        document.getElementById("output").value ="You were born on a Saturday and your name would be Kwame";
+        document.getElementById("output").value ="Born on Sunday and your  akan name is Kwame";
         return true;
       }
     }
     if (gender == 2) {
       if (result === 0) {
-        document.getElementById("output").value ="You were born on a Sunday and your name would be Akosu ";
+        document.getElementById("output").value ="Born on Sunday and your  akan name is Akosu ";
         return true;
       }
       else if (result === 1) {
-        document.getElementById("output").value ="You were born on a Monday and your name would be Adoa";
+        document.getElementById("output").value ="Born on Sunday and your  akan name is Adoa";
         return true;
       }
       else if (result === 2) {
-        document.getElementById("output").value ="You were born on a Tuesday and your name would be Abenaa";
+        document.getElementById("output").value ="Born on Sunday and your  akan name is Abenaa";
         return true;
       }
       else if (result === 3) {
-        document.getElementById("output").value ="You were born on a Wednesday and your name would be Akua";
+        document.getElementById("output").value ="Born on Sunday and your  akan name is Akua";
         return true;
       }
       else if (result === 4) {
-        document.getElementById("output").value ="You were born on a Thursday and your name would be Yaa";
+        document.getElementById("output").value ="Born on Sunday and your  akan name is Yaa";
         return true;
       }
       else if (result === 5) {
-        document.getElementById("output").value ="You were born on a Friday and your name would be Afua";
+        document.getElementById("output").value ="Born on Sunday and your  akan name is Afua";
         return true;
       }
       else  {
-        document.getElementById("output").value ="You were born on a Saturday and your name would be Amna";
+        document.getElementById("output").value ="Born on Sunday and your  akan name is Amna";
         return true;
       }
     }
