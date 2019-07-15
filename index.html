@@ -52,19 +52,19 @@
         <form class="form" action="index.html" id="myForm">
 
             ENTER Year of birth:
-          <input type="number" name="year"  id="year" placeholder="  eg .1997" value="year"><br><br>
+          <input type="number" name="year"  id="year" placeholder="  eg .1997"><br><br>
                 ENTER Birth month:
-            <input type="number" name="month" id="month" placeholder=" eg .1" value="month"><br><br>
+            <input type="number" name="month" id="month" placeholder=" eg .1" ><br><br>
                   ENTER Date of birth:
-              <input type="number" name="date" id="date" placeholder=" eg .25" value="date"><br><br>
+              <input type="number" name="date" id="date" placeholder=" eg .25"><br><br>
                       SELECT Gender:
-                <select class="custom-select" id = "list" name= "gender();" >
+                <select class="custom-select" id="list" name= "gender();" >
                   <option value="0">Gender</option>
                   <option value="1">Male</option>
                   <option value="2">Female</option>
 
                 </select><br><br>
-                <button type="button" name="submit" onclick="determine();">SUBMIT</button>
+                <button type="button" name="submit" onclick="giveYear();selectGender();determine()">SUBMIT</button>
         </form>
       </div>
     </div>
