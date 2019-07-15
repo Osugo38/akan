@@ -48,7 +48,7 @@
     </div>
     <p id="para">To confirm what day of the week you were born on and what your name would be,please fill the form below;  </p><br><br>
     <div class="row">
-      <div class="col-md-12">
+      <div class="col-md-8">
         <form class="form" action="index.html" id="myForm">
 
             ENTER Year of birth:
@@ -66,6 +66,24 @@
                 </select><br><br>
                 <button type="button" name="submit" onclick="giveYear();selectGender();determine()">SUBMIT</button>
         </form>
+      </div>
+      <div class="col-md-4" id = "results">
+        <div class="card">
+          <div class="card-tittle">
+            <h3>RESULTS</h3>
+
+          </div>
+          <form class="result" id="answer" action="index.html" method="post">
+            <div class="form-group">
+              <input type="textarea" name="output" id="output">
+            </div>
+            <div class="form-group">
+              <button type="button" class="operation" onclick="clearResult();" name="button">Clear</button>
+            </div>
+
+        </div>
+
+
       </div>
     </div>
 
