@@ -14,86 +14,73 @@
     </head>
     <body>
       <div class="container">
-      <div class="jumbotron">
-      <h1>AKAN NAMING SYSTEM</h1>
-      <div class="row">
-      <p>The Akan people of Ghana  name their children after the days of the week
-       that they were born,depending on their gender.Listed below are the
-        days of the week and names given to them for both genders;</p>
-      <div class="col-md-6">
-      <h3>Male</h3>
-      <ul>
-        <li>Sunday: Kwasi</li>
-        <li>Monday: Kwadwo</li>
-        <li>Tuesday: Kwabena</li>
-        <li>Wednesday: Kwaku</li>
-        <li>Thursday:  Yaw</li>
-        <li>Friday: Kofi</li>
-        <li>Saturday: Kwame</li>
-      </ul>
-
-      </div>
-      <div class="col-md-6">
-      <h4>Female</h4>
-      <ul>
-        <li>Sunday: Akosua</li>
-        <li>Monday: Adwoa</li>
-        <li>Tuesday: Abenaa</li>
-        <li>Wednesday: Aku</li>
-        <li>Thursday:  Yaa</li>
-        <li>Friday: Afua</li>
-        <li>Saturday: Ama</li>
-      </ul>
-
-    </div>
-    <p id="para">To confirm what day of the week you were born on and what your name would be,please fill the form below;  </p><br><br>
-    <div class="row">
-      <div class="col-md-6">
-        <form class="form" action="index.html" id="myForm">
-
-            ENTER Year of birth:
-          <input type="number" name="year"  id="year" placeholder="  eg .1997"><br><br>
-                ENTER Birth month:
-            <input type="number" name="month" id="month" placeholder=" eg .1" ><br><br>
-                  ENTER Date of birth:
-              <input type="number" name="date" id="date" placeholder=" eg .25"><br><br>
-                      SELECT Gender:
+        <div class="jumbotron">
+        <h1>AKAN NAMING SYSTEM</h1>
+          <div class="row">
+          <p>The Akan people of Ghana  name their children after the days of the week
+         that they were born,depending on their gender.Listed below are the
+          days of the week and names given to them for both genders;</p>
+          <div class="col-md-6">
+            <h3>Male</h3>
+            <ul>
+              <li>Sunday: Kwasi</li>
+              <li>Monday: Kwadwo</li>
+              <li>Tuesday: Kwabena</li>
+              <li>Wednesday: Kwaku</li>
+              <li>Thursday:  Yaw</li>
+              <li>Friday: Kofi</li>
+              <li>Saturday: Kwame</li>
+            </ul>
+          </div>
+          <div class="col-md-6">
+            <h4>Female</h4>
+            <ul>
+              <li>Sunday: Akosua</li>
+              <li>Monday: Adwoa</li>
+              <li>Tuesday: Abenaa</li>
+              <li>Wednesday: Aku</li>
+              <li>Thursday:  Yaa</li>
+              <li>Friday: Afua</li>
+              <li>Saturday: Ama</li>
+            </ul>
+          </div>
+          <p id="para">To confirm what day of the week you were born on and what your name would be,please fill the form below;  </p><br><br>
+          <div class="row">
+            <div class="col-md-6">
+              <form class="form" action="index.html" id="myForm">
+                  ENTER Year of birth:
+                <input type="number" name="year"  id="year" placeholder="  eg .1997"><br><br>
+                      ENTER Birth month:<br>
+                <input type="number" name="month" id="month" placeholder=" eg .01" ><br><br>
+                        ENTER Date of birth:
+                <input type="number" name="date" id="date" placeholder=" eg .25"><br><br>
+                            SELECT Gender:
                 <select class="custom-select" id="list" name= "gender();" >
                   <option value="0">Gender</option>
                   <option value="1">Male</option>
                   <option value="2">Female</option>
-
                 </select><br><br>
                 <button type="button" name="submit" onclick="giveYear();giveMonth();giveDay();selectGender();determine()">SUBMIT</button>
-        </form>
-      </div>
-      <div class="col-md-6" id = "results">
-        <div class="card">
-          <div class="card-tittle">
-            <h3>RESULTS</h3>
-
+            </form>
           </div>
-          <form class="result" id="answer" action="index.html" method="post">
-            <div class="form-group">
-              <input type="textarea" name="output" id="display">
+        <div class="col-md-6" id = "results">
+          <div class="card">
+            <div class="card-tittle">
+              <h3>RESULTS</h3>
             </div>
-            <div class="form-group">
-              <button type="button" class="operation" onclick="clearResult();" name="button">Clear</button>
-            </div>
-
+            <form class="form" id="answer" action="index.html" method="post">
+              <div class="form-group">
+                <input type="textarea" name="output" id="output">
+              </div>
+              <div class="form-group">
+                <button type="button" class="operation" onclick="clearResult();" name="button">Clear</button>
+              </div>
+          </div>
         </div>
-
-
+        </div>
+        </div>
       </div>
     </div>
-
-
-
-      </div>
-
-      </div>
-
-      </div>
-      <script src ="js/scripts.js"></script>
+    <script src ="js/scripts.js"></script>
   </body>
 </html>

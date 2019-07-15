@@ -21,17 +21,18 @@
 
 
 #year{
-  margin:0px;
+  margin:5px;
   margin-right: 0px;
-    border-radius: 50px;
+    border-radius: 0px;
 }
 #date{
-  margin: px;
-    border-radius: 50px;
+  margin:5px;
+    border-radius: 0px;
 }
 #month{
-  margin: 0px;
-  border-radius: 50px;
+  margin: 5px;
+  border-radius: 0px;
+
 
 }
 .row{
@@ -53,7 +54,7 @@ body {
 .container {
   padding-bottom:100px
 }
-#display{
+#output{
   width: 500px;
   margin-left: 5px;
 }
